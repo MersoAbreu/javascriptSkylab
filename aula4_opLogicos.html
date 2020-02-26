@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Logicos</title>
+</head>
+<body>
+    <script>
+
+
+        function maiorMenor(idade){
+
+            if(idade<15){
+                return "Menor de idade";
+            }else if(idade >15 && idade <18){
+                return "Menor de idade, porem já vota!";
+            }else if(idade > 18 && idade < 30){
+
+                return "Já não e mais adolecente, entrou na fase adulta";
+            }else if (idade > 30 && idade <= 50){
+                return "Não e idoso, mais precisa fazer exame de prostota";
+            }
+
+
+        }
+
+        var resultado = maiorMenor(29);
+
+        console.log(resultado);
+
+
+
+
+
+
+    </script>
+</body>
+</html>
